@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Karnataka tourism and travel website">
+    <title>Gallery | Karnataka Tourism</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Gallery Layout */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+
+        .gallery-item {
+            width: 100%;
+            border: none;
+            padding: 0;
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 14px;
+            background: transparent;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            border-radius: 14px;
+        }
+
+        .gallery-item span {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(10, 20, 35, 0.85);
+            color: white;
+            padding: 6px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* Tablet */
+        @media (max-width: 1000px) {
+            .gallery-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Small Tablet */
+        @media (max-width: 750px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 500px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-item img {
+                height: 230px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <div class="container nav-inner">
+
+            <a class="brand" href="index.html">
+
+                <img src="/images/Karnataka logo.JPG"
+                     alt="Karnataka Tourism logo">
+
+                <span>Karnataka Tourism</span>
+
+            </a>
+
+            <button class="menu-btn" aria-label="Open menu">
+                ☰
+            </button>
+
+            <nav class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="Heritage.html">
+                    Destinations
+                </a>
+
+                <a class="active" href="Gallery.html">
+                    Gallery
+                </a>
+
+                <a href="Hotel Booking Form.html">
+                    Hotel Booking
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main -->
+    <main>
+
+        <!-- Hero -->
+        <section class="page-hero">
+
+            <div class="container reveal">
+
+                <span class="kicker">
+                    Visual Journey
+                </span>
+
+                <h1>
+                    Gallery
+                </h1>
+
+                <p>
+                    Browse photographs from the destinations featured
+                    in this project. Click any image to view it larger.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Gallery Sections -->
+        <section class="section">
+
+            <div class="container">
+
+
+                <!-- Bengaluru -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Bengaluru
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Banglore 2.jpg">
+
+                        <img src="/images/Banglore 2.jpg"
+                             alt="Bengaluru view 2">
+
+                        <span>
+                            Bidarakalatte
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Banglore 4.jpg">
+
+                        <img src="/images/Banglore 4.jpg"
+                             alt="Bengaluru view 4">
+
+                        <span>
+                            Savandurga Hills
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Banglore 5.jpg">
+
+                        <img src="/images/Banglore 5.jpg"
+                             alt="Bengaluru view 5">
+
+                        <span>
+                            Ramanagara Hills
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Banglore 6.jpg">
+
+                        <img src="/images/Banglore 6.jpg"
+                             alt="Bengaluru view 6">
+
+                        <span>
+                            Savandurga Fort
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Mysore Palace -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Mysore Palace
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Mysore Palace 2.jpg">
+
+                        <img src="/images/Mysore Palace 2.jpg"
+                             alt="Mysore Palace view 2">
+
+                        <span>
+                            Mysore Palace at Sunset
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Mysore Palace 4.jpg">
+
+                        <img src="/images/Mysore Palace 4.jpg"
+                             alt="Mysore Palace view 4">
+
+                        <span>
+                            Mysore Palace Front View
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Mysore Palace 5.jpg">
+
+                        <img src="/images/Mysore Palace 5.jpg"
+                             alt="Mysore Palace view 5">
+
+                        <span>
+                            Mysore Palace Durbar Hall
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Mysore Palace 6.jpg">
+
+                        <img src="/images/Mysore Palace 6.jpg"
+                             alt="Mysore Palace view 6">
+
+                        <span>
+                            Mysore Palace Garden View
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Udupi -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Udupi
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Udupi 2.jpg">
+
+                        <img src="/images/Udupi 2.jpg"
+                             alt="Udupi view 2">
+
+                        <span>
+                            Kapu Beach
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Udupi 3.jpg">
+
+                        <img src="/images/Udupi 3.jpg"
+                             alt="Udupi view 3">
+
+                        <span>
+                            Udupi Sri Krishna Temple
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Udupi 5.jpg">
+
+                        <img src="/images/Udupi 5.jpg"
+                             alt="Udupi view 5">
+
+                        <span>
+                            Malpe Beach
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Udupi 6.jpg">
+
+                        <img src="/images/Udupi 6.jpg"
+                             alt="Udupi view 6">
+
+                        <span>
+                            Udupi Backwaters at Sunset
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Coorg -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Coorg
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Coorg 2.jpg">
+
+                        <img src="/images/Coorg 2.jpg"
+                             alt="Coorg view 2">
+
+                        <span>
+                            Abbey Falls
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Coorg 3.jpg">
+
+                        <img src="/images/Coorg 3.jpg"
+                             alt="Coorg view 3">
+
+                        <span>
+                            Mallalli Falls
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Coorg 4.jpg">
+
+                        <img src="/images/Coorg 4.jpg"
+                             alt="Coorg view 4">
+
+                        <span>
+                            Coorg Forest Road
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Coorg 6.jpg">
+
+                        <img src="/images/Coorg 6.jpg"
+                             alt="Coorg view 6">
+
+                        <span>
+                            Mandalpatti Hills
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Virupaksha Temple -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Virupaksha Temple
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Virupaksha Temple 2.jpg">
+
+                        <img src="/images/Virupaksha Temple 2.jpg"
+                             alt="Virupaksha Temple view 2">
+
+                        <span>
+                            Virupaksha Temple at Sunset
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Virupaksha Temple 3.jpg">
+
+                        <img src="/images/Virupaksha Temple 3.jpg"
+                             alt="Virupaksha Temple view 3">
+
+                        <span>
+                            Virupaksha Temple Complex
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Virupaksha Temple 4.jpg">
+
+                        <img src="/images/Virupaksha Temple 4.jpg"
+                             alt="Virupaksha Temple view 4">
+
+                        <span>
+                            Virupaksha Temple Gopuram
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Virupaksha Temple 6.jpg">
+
+                        <img src="/images/Virupaksha Temple 6.jpg"
+                             alt="Virupaksha Temple view 6">
+
+                        <span>
+                            Virupaksha Temple Among Rocks
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Vittala Temple -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Vittala Temple
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Vittala Temple 2.jpg">
+
+                        <img src="/images/Vittala Temple 2.jpg"
+                             alt="Vittala Temple view 2">
+
+                        <span>
+                            Vittala Temple at Sunset
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Vittala Temple 3.jpg">
+
+                        <img src="/images/Vittala Temple 3.jpg"
+                             alt="Vittala Temple view 3">
+
+                        <span>
+                            Vittala Temple Stone Pillars
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Vittala Temple 4.jpg">
+
+                        <img src="/images/Vittala Temple 4.jpg"
+                             alt="Vittala Temple view 4">
+
+                        <span>
+                            Vittala Temple Stone Chariot
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Vittala Temple 5.jpg">
+
+                        <img src="/images/Vittala Temple 5.jpg"
+                             alt="Vittala Temple view 5">
+
+                        <span>
+                            Vittala Temple Ruins
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Queen's Bath -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Queen's Bath
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Queen's Bath 2.jpg">
+
+                        <img src="/images/Queen's Bath 2.jpg"
+                             alt="Queen's Bath view 2">
+
+                        <span>
+                            Queen's Bath Interior
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Queen's Bath 3.jpg">
+
+                        <img src="/images/Queen's Bath 3.jpg"
+                             alt="Queen's Bath view 3">
+
+                        <span>
+                            Queen's Bath Courtyard
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Queen's Bath 5.jpg">
+
+                        <img src="/images/Queen's Bath 5.jpg"
+                             alt="Queen's Bath view 5">
+
+                        <span>
+                            Queen's Bath Exterior
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Queen's Bath 6.jpg">
+
+                        <img src="/images/Queen's Bath 6.jpg"
+                             alt="Queen's Bath view 6">
+
+                        <span>
+                            Queen's Bath Ruins
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Murudeshwara -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Murudeshwara
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Murudeshwara 2.jpg">
+
+                        <img src="/images/Murudeshwara 2.jpg"
+                             alt="Murudeshwara view 2">
+
+                        <span>
+                            Murudeshwara Temple & Shiva Statue
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Murudeshwara 4.jpg">
+
+                        <img src="/images/Murudeshwara 4.jpg"
+                             alt="Murudeshwara view 4">
+
+                        <span>
+                            Murudeshwara Temple Gopuram
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Murudeshwara 5.jpg">
+
+                        <img src="/images/Murudeshwara 5.jpg"
+                             alt="Murudeshwara view 5">
+
+                        <span>
+                            Murudeshwara Water Sports
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Murudeshwara 6.jpg">
+
+                        <img src="/images/Murudeshwara 6.jpg"
+                             alt="Murudeshwara view 6">
+
+                        <span>
+                            Murudeshwara Scuba Diving
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Nandi Hills -->
+                <div class="section-head reveal" style="margin-top:42px">
+
+                    <div>
+
+                        <span class="kicker">
+                            Gallery
+                        </span>
+
+                        <h2>
+                            Nandi Hills
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Nandi Hills 2.jpg">
+
+                        <img src="/images/Nandi Hills 2.jpg"
+                             alt="Nandi Hills view 2">
+
+                        <span>
+                            Nandi Hills Viewpoint
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Nandi Hills 3.jpg">
+
+                        <img src="/images/Nandi Hills 3.jpg"
+                             alt="Nandi Hills view 3">
+
+                        <span>
+                            Tipu Sultan’s Fort
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Nandi Hills 5.jpg">
+
+                        <img src="/images/Nandi Hills 5.jpg"
+                             alt="Nandi Hills view 5">
+
+                        <span>
+                            Bhoga Nandeeshwara Temple
+                        </span>
+
+                    </button>
+
+
+                    <button class="gallery-item reveal"
+                            data-lightbox="Nandi Hills 6.jpg">
+
+                        <img src="/images/Nandi Hills 6.jpg"
+                             alt="Nandi Hills view 6">
+
+                        <span>
+                            Nandi Hills Landscape
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>
+                    Karnataka Tourism
+                </h3>
+
+                <p>
+                    Discover heritage, nature, culture and memorable
+                    destinations across Karnataka.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Explore
+                </h3>
+
+                <p>
+
+                    <a href="Heritage.html">
+                        Destinations
+                    </a>
+
+                    <br>
+
+                    <a href="Gallery.html">
+                        Gallery
+                    </a>
+
+                    <br>
+
+                    <a href="Hotel Booking Form.html">
+                        Hotel Booking
+                    </a>
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Project
+                </h3>
+
+                <p>
+                    Designed & developed by G Souri Supraja
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            © 2026 Karnataka Tourism · Academic Web Development Project
+
+        </div>
+
+    </footer>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+
+        <button aria-label="Close">
+            ×
+        </button>
+
+        <img src=""
+             alt="Expanded gallery image">
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

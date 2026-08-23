@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Karnataka tourism and travel website">
+    <title>Hotel Booking | Karnataka Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container nav-inner"><a class="brand" href="index.html"><img src="/images/Karnataka logo.JPG"
+                    alt="Karnataka Tourism logo"><span>Karnataka Tourism</span></a><button class="menu-btn"
+                aria-label="Open menu">☰</button>
+            <nav class="nav-links"><a class="" href="/index.html">Home</a><a class=""
+                    href="Heritage.html">Destinations</a><a class="" href="Gallery.html">Gallery</a><a class="active"
+                    href="Hotel Booking Form.html">Hotel Booking</a></nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container reveal"><span class="kicker">Plan your stay</span>
+                <h1>Hotel Booking</h1>
+                <p>Fill in the details below to create a sample hotel booking request.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <form id="bookingForm" class="form-wrap" novalidate>
+                    <div class="form-grid">
+                        <div class="field"><label>First Name *</label><input name="firstName" required></div>
+                        <div class="field"><label>Last Name *</label><input name="lastName" required></div>
+                        <div class="field"><label>Mobile Number *</label><input name="mobile" type="tel" required></div>
+                        <div class="field"><label>Email *</label><input name="email" type="email" required></div>
+                        <div class="field"><label>Room Type *</label><select required>
+                                <option value="">Select room type</option>
+                                <option>Standard Room (1–2 People)</option>
+                                <option>Family Room (1–4 People)</option>
+                                <option>Private Room (1–3 People)</option>
+                                <option>Female Dorm Room (6 People)</option>
+                                <option>Male Dorm Room (6 People)</option>
+                                <option>Mixed Dorm Room (6 People)</option>
+                            </select></div>
+                        <div class="field"><label>Number of Guests *</label><select required>
+                                <option value="">Select guests</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                            </select></div>
+                        <div class="field"><label>Arrival Date & Time *</label><input type="datetime-local" required>
+                        </div>
+                        <div class="field"><label>Departure Date *</label><input type="date" required></div>
+                        <div class="field full"><label>Gender</label>
+                            <div class="radio-row"><label><input type="radio" name="gender" value="Male">
+                                    Male</label><label><input type="radio" name="gender" value="Female">
+                                    Female</label><label><input type="radio" name="gender" value="Other"> Other</label>
+                            </div>
+                        </div>
+                        <div class="field full"><label>Free Pickup</label>
+                            <div class="radio-row"><label><input type="radio" name="pickup" value="yes"> Yes, pick me
+                                    up</label><label><input type="radio" name="pickup" value="no"> No, I’ll arrange my
+                                    own travel</label></div>
+                        </div>
+                        <div class="field full"><button class="btn btn-primary" type="submit">Submit Booking Request
+                                →</button>
+                            <div class="success">Booking details validated successfully. This is a demo form for the
+                                academic project.</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Karnataka Tourism</h3>
+                <p>Discover heritage, nature, culture and memorable destinations across Karnataka.</p>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <p><a href="Heritage.html">Destinations</a><br><a href="Gallery.html">Gallery</a><br><a
+                        href="Hotel Booking Form.html">Hotel Booking</a></p>
+            </div>
+            <div>
+                <h3>Project</h3>
+                <p>Designed & developed by G Souri Supraja</p>
+            </div>
+        </div>
+        <div class="container copyright">© 2026 Karnataka Tourism · Academic Web Development Project</div>
+    </footer>
+    <div class="lightbox"><button aria-label="Close">×</button><img src="" alt="Expanded gallery image"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
