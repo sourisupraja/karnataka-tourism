@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Karnataka tourism and travel website">
+    <title>Destinations | Karnataka Tourism</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Destination Cards */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .card {
+            width: 100%;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-inner">
+
+            <a class="brand" href="index.html">
+                <img src="/images/Karnataka logo.JPG" alt="Karnataka Tourism logo">
+                <span>Karnataka Tourism</span>
+            </a>
+
+            <button class="menu-btn" aria-label="Open menu">
+                ☰
+            </button>
+
+            <nav class="nav-links">
+                <a href="/index.html">Home</a>
+                <a class="active" href="Heritage.html">Destinations</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="Hotel Booking Form.html">Hotel Booking</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="container reveal">
+
+                <span class="kicker">Discover Karnataka</span>
+
+                <h1>Destinations</h1>
+
+                <p>
+                    Explore heritage sites, hill stations, coastal escapes
+                    and iconic landmarks.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Destination Cards -->
+        <section class="section">
+
+            <div class="container">
+
+                <div class="cards">
+
+                    <!-- Bengaluru -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Banglore 1.jpg" alt="Bengaluru">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Bengaluru</h3>
+
+                            <p>
+                                India’s technology hub with a pleasant climate
+                                and vibrant city life.
+                            </p>
+
+                            <a class="text-link" href="Banglore.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Mysore Palace -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Mysore Palace 1.jpg" alt="Mysore Palace">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Mysore Palace</h3>
+
+                            <p>
+                                Royal heritage, grand architecture and the
+                                cultural heart of Mysuru.
+                            </p>
+
+                            <a class="text-link" href="Mysore Palace.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Udupi -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Udupi 1.jpg" alt="Udupi">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Udupi</h3>
+
+                            <p>
+                                A coastal destination blending temples,
+                                beaches and local traditions.
+                            </p>
+
+                            <a class="text-link" href="Udupi.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Coorg -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Coorg 1.jpg" alt="Coorg">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Coorg</h3>
+
+                            <p>
+                                A green hill station surrounded by coffee
+                                plantations and forests.
+                            </p>
+
+                            <a class="text-link" href="Coorg.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Virupaksha Temple -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Virupaksha Temple 1.jpg"
+                                alt="Virupaksha Temple">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Virupaksha Temple</h3>
+
+                            <p>
+                                A living temple and a major landmark within
+                                historic Hampi.
+                            </p>
+
+                            <a class="text-link"
+                                href="Virupaksha Temple.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Vittala Temple -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Vittala Temple 1.jpg"
+                                alt="Vittala Temple">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Vittala Temple</h3>
+
+                            <p>
+                                Famous for its stone chariot and remarkable
+                                musical pillars.
+                            </p>
+
+                            <a class="text-link"
+                                href="Vittala Temple.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Queen's Bath -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Queen's Bath 1.jpg"
+                                alt="Queen's Bath">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Queen's Bath</h3>
+
+                            <p>
+                                A historic royal bathing complex in the
+                                Hampi region.
+                            </p>
+
+                            <a class="text-link"
+                                href="Queen's Bath.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Murudeshwara -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Murudeshwara 1.jpg"
+                                alt="Murudeshwara">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Murudeshwara</h3>
+
+                            <p>
+                                A coastal pilgrimage destination with
+                                dramatic sea views.
+                            </p>
+
+                            <a class="text-link"
+                                href="Murudeshwara.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Nandi Hills -->
+                    <article class="card reveal">
+
+                        <div class="card-img">
+                            <img src="/images/Nandi Hills 1.jpg"
+                                alt="Nandi Hills">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Nandi Hills</h3>
+
+                            <p>
+                                A popular hill getaway with sunrise views
+                                and winding roads.
+                            </p>
+
+                            <a class="text-link"
+                                href="Nandi Hills.html">
+                                View destination →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>Karnataka Tourism</h3>
+
+                <p>
+                    Discover heritage, nature, culture and memorable
+                    destinations across Karnataka.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Explore</h3>
+
+                <p>
+                    <a href="Heritage.html">Destinations</a>
+                    <br>
+
+                    <a href="Gallery.html">Gallery</a>
+                    <br>
+
+                    <a href="Hotel Booking Form.html">
+                        Hotel Booking
+                    </a>
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Project</h3>
+
+                <p>
+                    Designed & developed by G Souri Supraja
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            © 2026 Karnataka Tourism · Academic Web Development Project
+
+        </div>
+
+    </footer>
+
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+
+        <button aria-label="Close">
+            ×
+        </button>
+
+        <img src="" alt="Expanded gallery image">
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
